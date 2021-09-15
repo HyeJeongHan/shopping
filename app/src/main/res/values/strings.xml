@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShoppingProject</string>
+
+    <string name="menu_home">홈</string>
+    <string name="menu_like">좋아요</string>
+
+</resources>
