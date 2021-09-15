@@ -37,7 +37,6 @@ class GoodsListAdapter(private var listener: OnClickItemListener) :
         private val binding = itemView
 
         fun bind(data: GoodItem) {
-            Log.e("TAG", "bind: ${data.id}  >>  ${data.isLikedItem}" )
             binding.goods = data
             binding.goodsLikeButton.isSelected = data.isLikedItem
             binding.goodsLikeButton.setOnClickListener {
